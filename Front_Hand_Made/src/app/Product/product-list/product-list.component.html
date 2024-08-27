@@ -1,0 +1,6 @@
+<app-menu id="menu"></app-menu>
+<div class="product-list">
+    <div *ngFor="let product of products" class="product-box">
+      <app-product [product]="product"></app-product>
+    </div>
+  </div>

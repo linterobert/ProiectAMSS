@@ -1,0 +1,34 @@
+.product-list {
+    background-color: #003366; /* Fundal închis */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: calc(100vh - 40px); /* Scade înălțimea padding-ului pentru a ocupa întreaga pagină */
+    overflow-y: auto; /* Permite scroll dacă conținutul depășește înălțimea vizibilă */
+}
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#menu{
+  background-color:#001a33;
+  width: 98.8vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  position:sticky;
+  margin-left: -10px;
+  margin-top: -8px;
+  justify-content: space-between;
+}
+
+#menu p {
+  margin-left: 2vw;
+}

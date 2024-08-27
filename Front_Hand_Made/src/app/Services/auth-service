@@ -1,0 +1,25 @@
+import { Injectable } from '@angular/core';
+import { jwtDecode } from 'jwt-decode';
+import { AuthToken } from '../Interfaces/AuthToken';
+
+export class AuthService {
+
+  isLoggedIn=false
+  constructor() { }
+
+  isAuthenticated(){
+    var token = localStorage.getItem('token');
+    if(token != null){
+      if(token != ""){
+
+        var decode = jwtDecode<AuthToken>(token.toString())
+        
+        if(decode["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"] == 'Client'){
+          this.isLoggedIn = true;
+        }
+      }
+      
+    }
+    return this.isLoggedIn;
+  }
+}

@@ -1,0 +1,10 @@
+<p id = 'logo'>ArtisanMarket</p>
+<div id = 'buttons'>
+    <label class="switch">
+        <input type="checkbox" id = 'check'>
+        <span class="slider round" id = 'switch'></span>
+    </label>
+    <button (click)="redirect('products')" href="http://localhost:4200/products"><mat-icon>store</mat-icon></button>
+    <button (click)="redirect('login')" href="http://localhost:4200/login"><mat-icon>logout</mat-icon></button>
+    <button (click)="redirect('post-product')" href="http://localhost:4200/post-product"><mat-icon>add</mat-icon></button>
+</div>

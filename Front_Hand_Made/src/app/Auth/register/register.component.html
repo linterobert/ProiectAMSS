@@ -1,0 +1,38 @@
+
+<div class="html">
+    <div class="body">
+<div class="login-box">
+        <h2>Register</h2>
+        <form>
+            <div class="user-box">
+                <input type="text"  #usernameInput name="" required="">
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" #passwordInput name="" required="">
+                <label>Password</label>
+            </div>
+            <div class="user-box">
+                <select id="userType" name="User Type" #userTypeInput required>
+                    <option value="client">Client</option>
+                    <option value="seller">Seller</option>
+                </select>
+            </div>
+            <a (click)="register(usernameInput.value, passwordInput.value, userTypeInput.value)">>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Register
+            </a>
+            <a href='http://localhost:4200/login'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Login
+            </a>
+        </form>
+    </div>
+    </div>
+    </div>
