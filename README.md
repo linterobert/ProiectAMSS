@@ -61,6 +61,42 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
   - Codul trebuie să fie scris și documentat clar, permițând dezvoltatorilor să extindă sau să ajusteze platforma cu ușurință.
   - Sistemul de versiuni și actualizări trebuie să fie implementat pentru a menține software-ul actualizat și securizat.
 
+Aceste cerințe vor asigura că platforma ArtisanMarket funcționează eficient, oferind o experiență sigură și satisfăcătoare atât pentru creatori, cât și pentru cumpărători, și contribuind la creșterea comunității creative.
+
+#### Design Patterns
+
+##### 1. Repository Pattern
+  - Fișiere in care este implementat: IProductRepository.cs, IReviewRepository.cs, IProductImageRepository.cs, IGenericRepository.cs
+  - Descriere: Acest pattern este utilizat pentru a separa logica de acces la date de logica de business. Interfețele și implementările repository-urilor gestionează operațiunile CRUD asupra entităților fără a expune detaliile bazei de date.
+  - Beneficii: Îmbunătățește testabilitatea și menținerea codului, permițând schimbarea ușoară a sursei de date fără a afecta logica de business.
+
+##### 2. Unit of Work Pattern
+  - Fișiere in care este implementat: IUnitOfWork.cs
+  - Descriere: Unit of Work este un pattern folosit pentru a coordona schimbările la mai multe repository-uri într-o singură tranzacție. Acesta gestionează commit-urile și rollback-urile, asigurând că toate operațiunile dintr-o tranzacție fie sunt finalizate cu succes, fie sunt anulate complet.
+  - Beneficii: Reduce numărul de tranzacții la nivel de bază de date și gestionează schimbările de stare pentru obiecte în mod coerent.
+
+##### 3. Command Pattern
+  - Fișiere in care este implementat: CreateProductCommand.cs, UpdateProductCommand.cs, DeleteProductCommand.cs, CreateReviewCommand.cs, DeleteReviewCommand.cs, etc.
+  - Descriere: Command Pattern este utilizat pentru a încapsula toate informațiile necesare pentru a efectua o acțiune sau a declanșa un eveniment într-un singur obiect. Command-urile permit separarea logica acțiunii de invocare.
+  - Beneficii: Simplifică executarea și manipularea operațiunilor complexe.
+
+##### 4. Handler Pattern 
+  - Fișiere in care este implementat: CreateProductCommandHandlers.cs, UpdateProductCommandHandlers.cs, DeleteProductCommandHandler.cs, etc.
+  - Descriere: Handlerele sunt parte din Mediator Pattern, utilizat în special în CQRS (Command Query Responsibility Segregation) pentru a gestiona cererile venite de la comenzi sau query-uri. Fiecare handler tratează un tip specific de comandă sau query.
+  - Beneficii: Decuplează expeditorii de comenzi de executanții lor, ceea ce duce la un cod mai clar, organizat și ușor de extins sau modificat.
+
+##### 5. DTO (Data Transfer Object) Pattern
+  - Fișiere in care este implementat: CreateProductDTO.cs, CreateReviewDTO.cs, LoginUserDTO.cs, etc.
+  - Descriere: DTO este un pattern folosit pentru a transporta date între straturile unei aplicații. DTO-urile sunt utilizate pentru a reduce numărul de apeluri între client și server, prin combinarea mai multor valori într-un singur obiect.
+  - Beneficii: Reduc numărul de apeluri la server, simplifică procesul de mapare și transformare a datelor, și crește performanța generală.
+
+##### 6. Dependency Injection (DI) Pattern
+  - Fișiere in care este implementat: Observabil din utilizarea serviciilor și repository-urilor în handleri și comenzi.
+  - Descriere: DI este un pattern care injectează dependențele necesare unui obiect din exterior, mai degrabă decât să le creeze intern. Acest lucru este vizibil în serviciile și repository-urile care sunt furnizate handlerelor și componentelor.
+  - Beneficii: Crește testabilitatea și flexibilitatea codului, îmbunătățește separarea responsabilităților și facilitează gestionarea ciclului de viață al obiectelor.
+
+Aceste design patterns contribuie la structura robustă, scalabilă și ușor de întreținut a proiectului ArtisanMarket, permițând dezvoltarea și extinderea facilă a funcționalităților platformei.
+
 #### **_Diagrama Stărilor_**
 ![E-commerce_platform_for_handmade_products](https://github.com/linterobert/Proiect-MOPS/assets/73032808/82d5f20a-5ad7-4eff-a391-d49eac059b19)
 
