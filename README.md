@@ -133,7 +133,7 @@ Aceste design patterns contribuie la structura robustă, scalabilă și ușor de
 ![component diagram](https://github.com/user-attachments/assets/ddf4e562-f6d0-4689-a9f8-ef643c1d231a)
 
 #### **_Diagrama de deployment_**
-![759bc3ab-9b23-4af1-abbd-3d20cb0e6f97](https://github.com/linterobert/Proiect-MOPS/assets/73032808/6b08a5fe-a0ef-4b3c-9f4a-22c66c03101c)
+![deployment](https://github.com/user-attachments/assets/3a485f88-ac09-4d22-9665-470b6f9f4baf)
 
 #### **_Diagrama de interactiune_**
 ![seq](https://github.com/linterobert/Proiect-MOPS/assets/73032808/3c289bd8-4317-4bd7-bd48-1acd22023ee4)
