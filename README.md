@@ -5,11 +5,25 @@ ArtisanMarket este mai mult decât o simplă platformă de comerț electronic; e
 
 ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pentru creșterea și conectarea comunității creative. Creatorii beneficiază de instrumente de promovare și marketing integrate pentru a-și spori vizibilitatea prin sistemul de ads. Acestia pot adauga orice produs atata timp cat el corespunde regulilor site-ului. Produsul poate fi adaugat ca Draft (vizibil doar de catre vanzator) sau ca Ads (vizibil pentru orice cumparator). Cu un proces de plată securizat și asistență clienți dedicată, ArtisanMarket se angajează să ofere o experiență completă, conectând iubitorii de handmade cu lucrări autentice și sprijinind astfel creșterea comunității creative și a economiei locale.
 
+#### **_Grupuri de interes_**
+
+##### 1.Creatori (Vânzători)
+  - Rol în aplicație: Creatori de produse handmade, aceștia sunt utilizatori care își creează un profil pe platformă și listează produse pentru vânzare. Ei pot gestiona produsele lor, pot primi recenzii și pot utiliza instrumentele de promovare și marketing pentru a-și crește vizibilitatea.
+  - Interese: Vânzarea produselor, construirea unei comunități în jurul produselor lor, creșterea vizibilității, primirea de feedback pozitiv și construcția unei reputații bune.
+
+##### 2. Cumpărători
+  - Rol în aplicație: Utilizatori care navighează și cumpără produse de pe platformă. Ei pot salva produse ca favorite, lăsa recenzii și aprecia munca creatorilor.
+  - Interese: Găsirea de produse autentice și unice, încredere în recenzii și evaluări, experiență de cumpărare sigură și plăcută, sprijinirea comunității de creatori.
+
+##### 3. Administratori ai platformei
+  - Rol în aplicație: Administratorii sunt responsabili de moderarea conținutului, verificarea respectării regulilor platformei, gestionarea reclamațiilor și asigurarea bunei funcționări a site-ului.
+  - Interese: Menținerea unei platforme sigure și conforme, îmbunătățirea experienței utilizatorilor, prevenirea fraudelor și asigurarea respectării regulilor și termenilor de utilizare.
+
 #### **_Cerințe Funcționale_**
 
 ##### 1. Gestionarea Profilurilor Utilizatorilor:
-  - Fiecare utilizator (creator sau cumpărător) trebuie să aibă un profil personalizat care să includă informații despre povestea și procesul de creație.
-  - Creatorii pot gestiona produsele, recenziile și campaniile lor de marketing direct din profil.
+  - Fiecare utilizator (creator sau cumpărător) trebuie să aibă un profil personalizat care să includă informații despre produs și procesul de creație.
+  - Creatorii pot gestiona produsele, recenziile și add-urile direct din profil.
     
 ##### 2. Gestionarea Produselor:
   - Creatorii pot adăuga produse sub formă de Draft sau Ads, conform regulilor platformei.
@@ -63,7 +77,7 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
 
 Aceste cerințe vor asigura că platforma ArtisanMarket funcționează eficient, oferind o experiență sigură și satisfăcătoare atât pentru creatori, cât și pentru cumpărători, și contribuind la creșterea comunității creative.
 
-#### Design Patterns
+#### **_Design Patterns_**
 
 ##### 1. Repository Pattern
   - Fișiere in care este implementat: IProductRepository.cs, IReviewRepository.cs, IProductImageRepository.cs, IGenericRepository.cs
@@ -92,7 +106,7 @@ Aceste cerințe vor asigura că platforma ArtisanMarket funcționează eficient,
 
 ##### 6. Dependency Injection (DI) Pattern
   - Fișiere in care este implementat: Observabil din utilizarea serviciilor și repository-urilor în handleri și comenzi.
-  - Descriere: DI este un pattern care injectează dependențele necesare unui obiect din exterior, mai degrabă decât să le creeze intern. Acest lucru este vizibil în serviciile și repository-urile care sunt furnizate handlerelor și componentelor.
+  - Descriere: DI este un pattern care injectează dependențele necesare unui obiect din exterior. Acest lucru este vizibil în serviciile și repository-urile care sunt furnizate handlerelor și componentelor.
   - Beneficii: Crește testabilitatea și flexibilitatea codului, îmbunătățește separarea responsabilităților și facilitează gestionarea ciclului de viață al obiectelor.
 
 Aceste design patterns contribuie la structura robustă, scalabilă și ușor de întreținut a proiectului ArtisanMarket, permițând dezvoltarea și extinderea facilă a funcționalităților platformei.
