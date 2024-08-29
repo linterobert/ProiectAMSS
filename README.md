@@ -5,6 +5,62 @@ ArtisanMarket este mai mult decât o simplă platformă de comerț electronic; e
 
 ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pentru creșterea și conectarea comunității creative. Creatorii beneficiază de instrumente de promovare și marketing integrate pentru a-și spori vizibilitatea prin sistemul de ads. Acestia pot adauga orice produs atata timp cat el corespunde regulilor site-ului. Produsul poate fi adaugat ca Draft (vizibil doar de catre vanzator) sau ca Ads (vizibil pentru orice cumparator). Cu un proces de plată securizat și asistență clienți dedicată, ArtisanMarket se angajează să ofere o experiență completă, conectând iubitorii de handmade cu lucrări autentice și sprijinind astfel creșterea comunității creative și a economiei locale.
 
+#### **_Cerințe Funcționale_**
+
+##### 1. Gestionarea Profilurilor Utilizatorilor:
+  - Fiecare utilizator (creator sau cumpărător) trebuie să aibă un profil personalizat care să includă informații despre povestea și procesul de creație.
+  - Creatorii pot gestiona produsele, recenziile și campaniile lor de marketing direct din profil.
+    
+##### 2. Gestionarea Produselor:
+  - Creatorii pot adăuga produse sub formă de Draft sau Ads, conform regulilor platformei.
+  - Fiecare produs trebuie să aibă detalii precum nume, descriere, preț, imagini și data adăugării.
+    
+##### 3. Funcționalități de Navigare și Căutare:
+  - Utilizatorii pot căuta produse în funcție de categorii (bijuterii, decorațiuni, haine etc.).
+  - Sistemul de filtrare și sortare trebuie să fie disponibil pentru a îmbunătăți experiența de căutare.
+    
+##### 4. Sistem de Recenzii și Evaluări:
+  - Cumpărătorii pot lăsa recenzii și evaluări pentru produsele achiziționate, ajutând la construirea încrederii în comunitatea ArtisanMarket.
+  - Creatorii pot vizualiza și răspunde la recenzii.
+
+##### 5. Favoritarea Produselor:
+  - Cumpărătorii pot salva produse ca favorite pentru a le putea vizualiza mai târziu.
+
+##### 6. Gestionarea Comenzilor și Plăților:
+  - Sistemul trebuie să suporte un proces de plată securizat pentru tranzacțiile dintre cumpărători și creatori.
+  - Detalii despre comandă și statusul acesteia trebuie să fie vizibile pentru utilizatori.
+
+##### 7. Instrumente de Promovare și Marketing:
+  - Creatorii pot utiliza instrumente de marketing integrate pentru a-și crește vizibilitatea pe platformă.
+
+##### 8. Administrare și Moderare:
+  - Administratorii site-ului trebuie să poată modera conținutul, gestionând recenziile, produsele și profilurile pentru a asigura respectarea regulilor platformei.
+
+#### Cerințe Non-Funcționale
+
+##### 1. Securitate:
+  - Sistemul de autentificare trebuie să fie securizat, protejând datele utilizatorilor și tranzacțiile financiare.
+  - Asigurarea protecției datelor personale conform reglementărilor GDPR.
+
+##### 2. Performanță și Scalabilitate:
+  - Platforma trebuie să fie capabilă să gestioneze un număr mare de utilizatori și produse fără degradarea performanței.
+  - Timpul de încărcare al paginilor trebuie să fie minim, optimizând experiența utilizatorului.
+
+##### 3. Fiabilitate și Disponibilitate:
+  - Sistemul trebuie să fie disponibil 24/7, minimizând downtime-ul și având proceduri de backup și recuperare a datelor.
+  - Gestionarea erorilor trebuie să fie eficientă, cu mesaje de eroare clare și logare adecvată a problemelor.
+
+##### 4. Ușurință în Utilizare (Usability):
+  - Interfața utilizatorului trebuie să fie intuitivă, ușor de navigat și adaptată pentru toate tipurile de dispozitive (responsive).
+  - Formularele și procesele (cum ar fi adăugarea produselor sau procesul de plată) trebuie să fie simple și ușor de folosit.
+
+##### 5. Compatibilitate:
+  - Platforma trebuie să fie compatibilă cu cele mai comune browsere (Chrome, Firefox, Safari, Edge) și să fie accesibilă pe desktop și dispozitive mobile.
+
+##### 6. Mentenanță și Extensibilitate:
+  - Codul trebuie să fie scris și documentat clar, permițând dezvoltatorilor să extindă sau să ajusteze platforma cu ușurință.
+  - Sistemul de versiuni și actualizări trebuie să fie implementat pentru a menține software-ul actualizat și securizat.
+
 #### **_Diagrama Stărilor_**
 ![E-commerce_platform_for_handmade_products](https://github.com/linterobert/Proiect-MOPS/assets/73032808/82d5f20a-5ad7-4eff-a391-d49eac059b19)
 
