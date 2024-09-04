@@ -9,7 +9,7 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
 
 ##### 1.Creatori (Vânzători)
   - Rol în aplicație: Creatori de produse handmade, aceștia sunt utilizatori care își creează un profil pe platformă și listează produse pentru vânzare. Ei pot gestiona produsele lor, pot primi recenzii și pot utiliza instrumentele de promovare și marketing pentru a-și crește vizibilitatea.
-  - Interese: Vânzarea produselor, construirea unei comunități în jurul produselor lor, creșterea vizibilității, primirea de feedback pozitiv și construcția unei reputații bune.
+  - Interese: Vânzarea produselor, construirea unei comunități în jurul produselor lor, creșterea vizibilității, primirea de feedback pozitiv și construirea unei reputații bune.
 
 ##### 2. Cumpărători
   - Rol în aplicație: Utilizatori care navighează și cumpără produse de pe platformă. Ei pot salva produse ca favorite, lăsa recenzii și aprecia munca creatorilor.
