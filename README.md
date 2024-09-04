@@ -37,7 +37,7 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
   - Cumpărătorii pot lăsa recenzii și evaluări pentru produsele achiziționate, ajutând la construirea încrederii în comunitatea ArtisanMarket.
   - Creatorii pot vizualiza și răspunde la recenzii.
 
-##### 5. Favoritarea Produselor:
+##### 5. Adaugarea la favorite a Produselor:
   - Cumpărătorii pot salva produse ca favorite pentru a le putea vizualiza mai târziu.
 
 ##### 6. Gestionarea Comenzilor și Plăților:
@@ -57,7 +57,7 @@ ArtisanMarket nu se rezumă doar la vânzare; este și un spațiu interactiv pen
   - Asigurarea protecției datelor personale conform reglementărilor GDPR.
 
 ##### 2. Performanță și Scalabilitate:
-  - Platforma trebuie să fie capabilă să gestioneze un număr mare de utilizatori și produse fără degradarea performanței.
+  - Platforma trebuie să fie capabilă să gestioneze un număr mare de utilizatori și produse fără scadarea performanței.
   - Timpul de încărcare al paginilor trebuie să fie minim, optimizând experiența utilizatorului.
 
 ##### 3. Fiabilitate și Disponibilitate:
